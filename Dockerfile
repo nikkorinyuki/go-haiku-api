@@ -19,7 +19,6 @@ RUN go build -o main main.go
 # 実行ステージ
 FROM gcr.io/distroless/base-debian10 AS prod
 
-RUN apt-get update && apt-get upgrade -y
 COPY --from=builder /app/main /usr/local/bin/main
 
 CMD ["main"]
