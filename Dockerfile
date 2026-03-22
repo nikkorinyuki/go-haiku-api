@@ -7,7 +7,7 @@ RUN go mod download
 
 COPY . .
 
-RUN go build -o main ./src
+RUN go build -o main main.gp
 
 # 実行ステージ
 FROM gcr.io/distroless/base-debian10 AS prod
