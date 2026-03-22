@@ -1,4 +1,4 @@
-FROM debian:10 AS builder
+FROM debian:11 AS builder
 
 WORKDIR /app
 
@@ -17,7 +17,7 @@ RUN go mod download
 RUN go build -o main main.go
 
 # 実行ステージ
-FROM gcr.io/distroless/base-debian10 AS prod
+FROM gcr.io/distroless/base-debian11 AS prod
 
 COPY --from=builder /app/main /usr/local/bin/main
 
