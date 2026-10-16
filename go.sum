@@ -6,5 +6,5 @@ github.com/ikawaha/kagome-dict/uni v1.2.6 h1:q5AzlkZ0bFAUmX5EKN/hfb5Ze39pJHyZm+6
 github.com/ikawaha/kagome-dict/uni v1.2.6/go.mod h1:YKr6RV/SKGoEHl4pcxzFnsVemRpRISwgTpSZqqwZbKs=
 github.com/ikawaha/kagome/v2 v2.9.4 h1:8TgrcS47+nVCIOyQJRE33+VAqQrdKIGuZ8QI9sHz95E=
 github.com/ikawaha/kagome/v2 v2.9.4/go.mod h1:OYzxPG9dQSalvznlcLNR8TEKpPwzKhnZszw9LLbf7e8=
-github.com/mattn/go-haiku v0.0.44 h1:GmzDSSejWHKKFCMiexvFKicHwhHaopVxV8tejDAKiSs=
-github.com/mattn/go-haiku v0.0.44/go.mod h1:1dRTtM8aphAGx6qIgoVbYVQGITpZEeG8Ii1GizAHhxo=
+github.com/mattn/go-haiku v0.0.47 h1:ddrKqPhGprKyGcoGvkVkNXcYEpFWT3aiIWj1Ukwnbtk=
+github.com/mattn/go-haiku v0.0.47/go.mod h1:1dRTtM8aphAGx6qIgoVbYVQGITpZEeG8Ii1GizAHhxo=
